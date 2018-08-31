@@ -16,7 +16,7 @@ class Header extends React.Component {
             <Link to="/">
               <img className="Header__100" src={one100} alt="" />
             </Link>
-            <a className="d-none d-md-block" href="http://www.uls.edu" target="_blank" rel="noopener noreferrer">
+            <a className="d-none d-md-block" href="http://www.uls.edu/giving" target="_blank" rel="noopener noreferrer">
               <Button text="Support ULS" />
             </a>
           </div>
