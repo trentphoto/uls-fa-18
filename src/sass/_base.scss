@@ -10,12 +10,11 @@ html, body {
 
 a {
   color: $light;
-}
-
-a:hover {
-  color: $light;
-  cursor: pointer;
-  text-decoration: none;
+  @include hover {
+    color: $light;
+    cursor: pointer;
+    text-decoration: none;
+  };
 }
 
 // make sure the app takes up the full screen vertically

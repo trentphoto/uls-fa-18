@@ -4,16 +4,20 @@
   padding: .75rem 4rem;
   color: $light;
   cursor: pointer;
-  &:hover {
+  @include hover {
     color: $light;
     text-decoration: none;
-  }
-  &:hover .Button__outline, &:focus .Button__outline {
-    transform: scaleX(1.05);
-  }
-  &:hover .Button__icon, &:focus .Button__icon {
-    transform: translateX(20px);
-  }
+  };
+  @include hover-focus {
+    .Button__outline {
+      transform: scaleX(1.05);
+    }
+  };
+  @include hover-focus {
+    .Button__icon {
+      transform: translateX(20px);
+    }
+  };
   &:active .Button__outline {
     transform: scaleX(1);
   }

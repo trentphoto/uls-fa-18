@@ -10,11 +10,17 @@
 // Issue: https://github.com/twbs/bootstrap/issues/25195
 
 @mixin hover {
-  &:hover { @content; }
+  @media (hover: hover) {
+    &:hover { @content; }
+  }
 }
 
 @mixin hover-focus {
-  &:hover,
+  @media (hover: hover) {
+    &:hover{
+      @content;
+    }
+  }
   &:focus {
     @content;
   }

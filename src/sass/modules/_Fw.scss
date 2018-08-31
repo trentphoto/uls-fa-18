@@ -19,7 +19,7 @@
     transition: $transition-default;
     z-index: 3;
   }
-  &:hover, &:focus {
+  @include hover-focus {
     .Fw__Button .Button__icon {
       transform: translateX(20px);
     }
@@ -35,7 +35,7 @@
     .Fw__bar {
       width: 100%;
     }
-  }
+  };
   &:active {
     .Fw__content {
       transform: scale(1);
