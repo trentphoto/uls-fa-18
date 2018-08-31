@@ -91,7 +91,7 @@ class kelly extends React.Component {
             </div>
             <div className="row">
               <div className="col-md-8">
-                <p>In 1926 Pastor Kelly accepted a call at Holy Trinity Lutheran Church in Wilmington, DE where he would spend the majority of his career. When Pastor Kelly began his ministry at Holy Trinity, the congregation had 153 members. Pastor Kelly was determined to bring God’s word to his new congregation and change a few lives along the way.</p>
+                <p>In 1926 Pastor Kelly accepted a call at Holy Trinity Lutheran Church in Wilmington, DE where he would spend the majority of his career. When Pastor Kelly began his ministry at Holy Trinity, the congregation had 153 members. Pastor Kelly was determined to bring God’s word to his new congregation and change many lives along the way.</p>
                 <p>Throughout his time in Wilmington, Pastor Kelly helped start many new projects. He became extremely active within the community and served in God’s name in every role he played. He began his endeavors by helping to organize the Wilmington Ministerial Association, a collection of churches from around the area that would volunteer within the community. Pastor Kelly became the Association’s first president and set it on a course that would allow it to continue for years. </p>
               </div>
               <div className="col-md-4">
@@ -100,7 +100,7 @@ class kelly extends React.Component {
             </div>
             <div className="row">
               <div className="col-md-8">
-                <p>In an effort to become more active within his community, Pastor Kelly became a member of the Wilmington Council of Churches. In 1951, while representing the Council, Pastor Kelly was given the opportunity to appear on television to deliver a sermon entitled “Instrument’s in God’s Hands.” He brought along with him members of a choir to sing a few hymns after he spoke. In 1946, he became a delegate to the synod of United Lutheran Church. He acted as their chairman in 1949 and completed his time with them in 1950.</p>
+                <p>In an effort to become more active within his community, Pastor Kelly became a member of the Wilmington Council of Churches. In 1951, while representing the Council, Pastor Kelly was given the opportunity to appear on television to deliver a sermon entitled “Instruments in God’s Hands.” He brought along with him members of a choir to sing a few hymns after he spoke. In 1946, he became a delegate to the synod of United Lutheran Church. He acted as their chairman in 1949 and completed his time with them in 1950.</p>
               </div>
               <div className="col-md-4">
                 <img className="img-fluid mb-4" src={img_easter} alt="James Kelly | United Lutheran Seminary 100" />
@@ -108,8 +108,8 @@ class kelly extends React.Component {
             </div>
             <div className="row">
               <div className="col-md-8">
-                <p>Due his commitment to his church and surrounding community, it is unsurprising that he “didn’t have time for any real hobbies.” However, he was a lifetime member of the Lions Club.</p>
-                <p>In 1953, Pastor Kelly left Holy Trinity to answer the call to St. George Lutheran Church, a struggling parish in Edinburg, Indiana. At the time left Holy Trinity, he was the second longest serving Pastor in Wilmington, serving 26 years, and grew their congregation’s size to 434 members. He returned to Holy Trinity in 1956 to preach at and help celebrate the church’s 50 anniversary.</p>
+                <p>Due to his commitment to his church and surrounding community, it is unsurprising that he “didn’t have time for any real hobbies.” However, he was a lifetime member of the Lions Club.</p>
+                <p>In 1953, Pastor Kelly left Holy Trinity to answer the call to St. George Lutheran Church, a struggling parish in Edinburg, Indiana. At the time left Holy Trinity, he was the second longest serving Pastor in Wilmington, serving 26 years, and grew their congregation’s size to 434 members. He returned to Holy Trinity in 1956 to preach at and help celebrate the church’s 50th anniversary.</p>
               </div>
               <div className="col-md-4">
                 <img className="img-fluid mb-4" src={img11} alt="James Kelly | United Lutheran Seminary 100" />
@@ -125,7 +125,7 @@ class kelly extends React.Component {
             </div>
             <div className="row">
               <div className="col-md-8">
-                <p>Pastor James F. Kelly entered God’s Kingdom on February 8, 1983, just 10 years after his wife’s passing. His dedication to the church, his family, and his community was apparent in everything he did and everyone he served. Rev. Kelly felt the call to God, his country, and his community many times throughout his life. He was determined to help others and make a change in the world in everything he did.</p>
+                <p>Pastor James F. Kelly entered God’s Kingdom on February 8, 1983, 10 years after his wife’s passing. His dedication to the church, his family, and his community was apparent in everything he did and everyone he served. Rev. Kelly felt the call to God, his country, and his community many times throughout his life. He was determined to help others and make a change in the world in everything he did.</p>
                 <p>Due to his dedication to the church and his community, it was decided that the $30 million would be given to the seminary in his memory. This gift will be given exclusively for student scholarships and an endowed chair. This bequest will continue the mission Rev. Kelly pursued his entire life: to spread God’s word and do what is necessary to cultivate a loving community.</p>
               </div>
               <div className="col-md-4">
