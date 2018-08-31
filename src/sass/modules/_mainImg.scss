@@ -1,0 +1,15 @@
+.mainImg {
+  position: relative;
+  // offset yellow border
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid $yellow;
+    transform: translate(15px, -15px);
+  }
+}

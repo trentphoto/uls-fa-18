@@ -1,0 +1,21 @@
+@import "bootstrap/bootstrap.scss";
+@import "base";
+
+// components
+@import "modules/Header";
+
+@import "modules/svgLogo";
+@import "modules/Button";
+@import "modules/Background";
+@import "modules/HomeCard";
+@import "modules/mainImg";
+@import "modules/textLink";
+@import "modules/Fw";
+@import "modules/overlay";
+@import "modules/mainWrapper";
+
+@import "modules/Footer";
+
+@import "animation";
+
+// pages

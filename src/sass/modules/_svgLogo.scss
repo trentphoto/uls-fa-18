@@ -1,0 +1,14 @@
+.svgLogo {
+  path, polygon, rect {
+    fill: $light;
+  }
+  &_stacked {
+    width: 100px;
+  }
+  &_horizontal {
+    width: 240px;
+  }
+  @include media-breakpoint-down(md) {
+    margin-bottom: 3rem;
+  }
+}

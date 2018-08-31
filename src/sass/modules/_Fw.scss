@@ -1,0 +1,44 @@
+// main full-width CTA section on homepage
+.Fw {
+  position: relative;
+  display: block;
+  padding: 5rem 0;
+  background-size: cover;
+  &__content {
+    position: relative;
+    transition: $transition-default;
+    z-index: 3;
+  }
+  &__bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: $yellow;
+    transition: $transition-default;
+    z-index: 3;
+  }
+  &:hover, &:focus {
+    .Fw__Button .Button__icon {
+      transform: translateX(20px);
+    }
+    .Fw__Button .Button__outline {
+      transform: scaleX(1.05);
+    }
+    .overlay__dark {
+      background-color: rgba(0,0,0,.8);
+    }
+    .Fw__content {
+      transform: scale(1.02);
+    }
+    .Fw__bar {
+      width: 100%;
+    }
+  }
+  &:active {
+    .Fw__content {
+      transform: scale(1);
+    }
+  }
+}

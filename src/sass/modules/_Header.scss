@@ -1,0 +1,14 @@
+.Header {
+  padding: 50px 0;
+  &__logo {
+    max-width: 100px
+  }
+  &__100 {
+    max-width: 250px;
+  }
+  .row {
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+    }
+  }
+}

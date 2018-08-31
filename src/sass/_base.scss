@@ -1,0 +1,42 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+a {
+  color: $light;
+}
+
+a:hover {
+  color: $light;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+// make sure the app takes up the full screen vertically
+#root {
+  height: 100vh
+}
+.app {
+  height: 100%;
+}
+
+.content {
+  .alignright {
+    float: right;
+    max-width: 40%;
+    margin: 2rem 0 2rem 3rem;
+  }
+  .aligncenter {
+    max-width: 100%;
+    margin: 3rem 0;
+  }
+  hr {
+    border-top: 1px solid $light;
+  }
+}

@@ -1,0 +1,33 @@
+.HomeCard {
+  position: relative;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $headings-font-family;
+  font-size: 28px;
+  text-align: center;
+  min-height: 200px;
+  margin-bottom: 1rem;
+  color: $light;
+  cursor: pointer;
+  &:hover {
+    color: $light;
+    text-decoration: none;
+  }
+  &:hover .HomeCard__border, &:focus .HomeCard__border {
+    transform: scale(1.05);
+  }
+  &:active .HomeCard__border {
+    transform: scale(1);
+  }
+  &__border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid $yellow;
+    transition: $transition-default;
+  }
+}
